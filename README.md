@@ -1,0 +1,3 @@
+## React Native Race Condition Bug
+
+This repository demonstrates a common race condition bug in React Native applications involving asynchronous data fetching. The `BuggyComponent.js` file shows the problematic code that leads to unpredictable behavior, including rendering stale data or application crashes. The solution, provided in `FixedComponent.js`, uses appropriate asynchronous handling techniques to resolve the race condition.  This bug is frequently encountered when dealing with API calls within components that may unmount before those calls return. Solutions involve the use of cancellation tokens or cleanup functions.
